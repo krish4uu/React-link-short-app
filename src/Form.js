@@ -37,6 +37,11 @@ export default function Form() {
       );
   };
 
+  const clearDisplayData = () => {
+    localStorage.clear();
+    window.location.reload();
+  };
+
   return (
     <div className="main-container">
       <Particle />
@@ -53,6 +58,10 @@ export default function Form() {
           </label>
           <input id="button" type="submit" value="Submit" />
         </form>
+        <div id="storage-clear-btn">
+          {" "}
+          <button onClick={clearDisplayData}>Clear storage</button>
+        </div>
 
         {state.urls.length > 0 &&
           urls.map((url, index) => {

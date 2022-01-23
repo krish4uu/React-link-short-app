@@ -30,6 +30,12 @@ html {
   font-family: "Calibri";
 }
 
+#storage-clear-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #button:hover {
   background-color: #d3dedc;
 }

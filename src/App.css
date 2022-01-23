@@ -1,0 +1,94 @@
+body,
+html {
+  height: 100%;
+}
+
+.main-container {
+  background: #0f0e0e;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+#input {
+  display: flex;
+  font-family: "Calibri";
+  font-size: 1.2em;
+  width: 25vw;
+  background-color: #eeeeee;
+  border-radius: none;
+}
+
+#button {
+  font-family: "Calibri";
+}
+
+#button:hover {
+  background-color: #d3dedc;
+}
+
+.data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  overflow-y: scroll;
+}
+
+.data-wrapper {
+  display: flex;
+  font-family: "Calibri";
+  width: 30vw;
+  justify-content: space-evenly;
+  background: rgba(92, 247, 219, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(50, 91, 94, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.data-link {
+  width: 20vw;
+  font-size: 1.2em;
+  color: whitesmoke;
+  padding: 0 1rem 0 1rem;
+}
+
+.data-button {
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.data-button:hover {
+  background-color: #adc2a9;
+}
+
+@media (max-width: 767px) {
+  .data-link {
+    width: 30vw;
+    justify-content: center;
+
+    font-size: 1em;
+  }
+
+  .data-wrapper {
+    width: 50vw;
+  }
+
+  #input {
+    width: 45vw;
+    font-size: 0.9em;
+  }
+
+  #button {
+    font-size: 0.9em;
+  }
+}

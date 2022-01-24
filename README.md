@@ -1,5 +1,5 @@
 # Features
-- Uses React functional components, Context Api, Localstorage, Shortcode Api, Particle.js
+- Uses React functional components, Context Api, Localstorage, [Shortcode Api](https://shrtco.de/), Particle.js
 - Users can shorten and copy any URL.
 - It uses local storage to store the shortened URL and would be there after reloading the page.
 - The clear storage button will execute a method, which clears all the local data and then reload the page.
